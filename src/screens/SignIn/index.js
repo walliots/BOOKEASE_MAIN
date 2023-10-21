@@ -14,7 +14,7 @@ import {
 import Api from "../../Api";
 
 import { Alert, Text } from "react-native";
-import GcaLogo from "../../assets/gcalogoupdate.svg";
+import BookEase from "../../assets/LogoBookNEW.svg";
 import SignInput from "../../components/SignInput";
 import EmailIcon from "../../assets/email.svg"
 import LockIcon from "../../assets/lock.svg"
@@ -42,7 +42,7 @@ export default () => {
 
     return (
         <Container>
-            <GcaLogo width="100%" height="160px" />
+            <BookEase width="100%" height="160px" />
 
             <InputArea>
                 <SignInput
